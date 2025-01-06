@@ -25,22 +25,13 @@ public class Main {
 		String street = in.nextLine();
 		System.out.println("pick a number from 2-6");
 		int num1 = in.nextInt();
-		System.out.println("would you rather the other characters in the story to be");
-		System.out.println("a = gang members ");
-		System.out.println("b = homeless people");
-		String choice = in.nextLine();
-		if (choice.equals("a")) {
-			
-		}else {
-			
-		}
+	
 		
 		
+		System.out.println("one day a girl named "+name+" was coming back from "+school+" after "+sport+" practice,down "+street+" when she was approched by "+ num1+ "gangsters that robbed her");
 		
-		System.out.println("one day a girl named "+name+" was coming back from "+school+" after "+sport+" practice,down "+street+" when she was approched by "+num1 +);
-		
-		
-		
+	  Scanner.close();
+	
 		
 
 	}
