@@ -13,10 +13,26 @@ public class Main {
 		 */
 		
 		Scanner in = new Scanner(System.in);
-		System.out.println("Welcome to Mad Libs!");
-		System.out.println("What's your name?");
+		System.out.println("please enter a girl name ");
 		String name = in.nextLine();
-		System.out.println("One day, "+name+" wrote a Mad Lib in class!");
+		System.out.println("hello "+ name);
+		System.out.println("what school do you go to");
+		String school = in.nextLine();
+		System.out.println("pick a sport ");
+		String sport =in.nextLine();
+		System.out.println("ive heard many good things about" + school );
+		System.out.println("what street do you live on");
+		String street = in.nextLine();
+		System.out.println("pick a number from 2-6");
+		int num1 = in.nextInt();
+	
+		
+		
+		System.out.println("one day a girl named "+name+" was coming back from "+school+" after "+sport+" practice,down "+street+" when she was approched by "+ num1+ "gangsters that robbed her");
+		
+	  Scanner.close();
+	
+		
 
 	}
 
